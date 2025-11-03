@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Selector Basic</title>
+    <style>
+        * {color:blueviolet;}   /* 전체 스타일 지정 */
+        h2 {
+            color: red;
+            background-color: orange;  /* h1 스타일 지정 */
+        }
+        p { 
+            color: blue; 
+        }
+        #header {
+            width: 800px; 
+            margin: 0 auto;
+            background: red;
+        }
+        #wrap {
+            width: 800px; 
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        #aside {
+            width: 200px; 
+            float: left;
+            background: blue;
+        }
+        #content {
+            width: 600px; float: left;
+            background: green;
+        }
+        #rint {
+            color: rgb(0, 255, 136); 
+            background-color: black;
+            text-align: center;
+        }
+        .select {
+             color: rgb(255, 0, 191); 
+        }
+        h1:hover { 
+            color: red; 
+        }
+        h1:active { 
+            color: blue; 
+        }
+</style>
+</head>
+<body>
+    <h2>제목 글자</h2>
+    <p>Lorem ipusm dolor sit amet, consectetur adipiscing elt.</p>
+    <div id="header">
+        <h1>#header 태그</h1>
+    </div>
+    <div id="wrap">
+        <div id="aside">
+            <h1>#aside 태그</h1>
+        </div>
+        <div id="content">
+            <h1>#content 태그</h1>
+        </div>
+    </div>
+    <h1 id="rint">CSS3 선택자 기본</h1>
+    <h2 id="rint">CSS3 선택자 기본</h2>
+    <h3 id="rint">CSS3 선택자 기본</h3>
+    <ul>
+        <li class="select">사과</li>
+        <li>바나나</li>
+        <li class="select">오렌지</li>
+        <li>감</li>
+    </ul>
+    <h1>반응 선택자</h1>
+</body>
+</html>
